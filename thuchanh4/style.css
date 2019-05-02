@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	width: 100vw;
+	height: 100vh;
+}
+.red {
+	width: calc(33.33% - 10px);
+    width: -moz-calc(33.33% - 10px);
+    width: -webkit-calc(33.33% - 10px);
+	height: 100%;
+	background: red;
+	float: left;
+	margin-right: 15px;
+}
+.green {
+	width: calc(33.33% - 10px);
+    width: -moz-calc(33.33% - 10px);
+    width: -webkit-calc(33.33% - 10px);
+	height: 100%;
+	background: green;
+	float: left;
+	margin-right: 15px;
+}
+.blue {
+	width: calc(33.33% - 10px);
+    width: -moz-calc(33.33% - 10px);
+    width: -webkit-calc(33.33% - 10px);
+	height: 100%;
+	background: blue;
+	float: left;
+}
