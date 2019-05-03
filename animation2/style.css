@@ -1,0 +1,33 @@
+.wrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+div {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.d2::before {
+	content: "";
+	background: green;
+	color: #fff;
+	animation: texts infinite 5s;
+}
+
+@keyframes texts {
+	0% {
+		content: "LEARNING";
+		background: green;
+	}
+	50% {
+		content: "CODING";
+		background: orange;
+	}
+	100% {
+		content: "TEACHING";
+		background: purple;
+	}
+}
